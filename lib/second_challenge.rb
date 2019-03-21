@@ -9,12 +9,12 @@ def second_challenge
 item_array=[]
 
   #code your solution here!
-groceries.each do | type, items |
-  items.each do | value |
-    item_array << value    
+  groceries.each do | type, items |
+    items.each do | value |
+     item_array << value    
+    end
+
   end
-  
-end
-  
+item_array  
 
 end
