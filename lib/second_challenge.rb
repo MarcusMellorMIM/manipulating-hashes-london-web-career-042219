@@ -6,8 +6,15 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+item_array=[]
 
-  
+  #code your solution here!
+  groceries.each do | type, items |
+    items.each do | value |
+     item_array << value    
+    end
+
+  end
+item_array  
 
 end
